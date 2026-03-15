@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'The Professional Operating System for Singapore Agents',
   url: 'https://docs.skandage.com', 
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // THE MISSING ENGINE: This tells Docusaurus how to render pages and docs
   presets: [
