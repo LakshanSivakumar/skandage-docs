@@ -75,3 +75,24 @@
 .menu__link {
   border-radius: 0;
 }
+/* --- SMART SEARCH UI OVERRIDES --- */
+
+/* 1. Change the hover/active background from White to Dark Grey */
+[class*="searchResultItemActive"],
+[class*="searchResultItem"]:hover {
+  background-color: #1a1a1a !important; 
+}
+
+/* 2. Force the text inside the active item to stay White */
+[class*="searchResultItemActive"] *,
+[class*="searchResultItem"]:hover * {
+  color: #ffffff !important;
+}
+
+/* 3. Brutalist style for the matching search term (Black text on White box) */
+[class*="searchResultItem"] mark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  padding: 0 2px;
+  border-radius: 2px;
+}
