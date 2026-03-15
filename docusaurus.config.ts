@@ -50,7 +50,7 @@ const config: Config = {
       title: 'SKANDAGE',
       logo: {
         alt: 'Skandage Logo',
-        src: 'img/logo.svg', 
+        src: 'img/new-logo.png', 
       },
       items: [
         {

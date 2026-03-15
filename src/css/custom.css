@@ -164,3 +164,9 @@
                 inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
     transform: translateY(-4px) !important;
   }
+/* Center and size the navbar logo */
+.navbar__logo {
+  height: 50px !important; /* Adjust this number to make it bigger/smaller */
+  margin-right: 0rem !important; /* Space between the logo and the word SKANDAGE */
+  filter: brightness(0) invert(1);
+}
