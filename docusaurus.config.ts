@@ -65,11 +65,6 @@ const config: Config = {
           position: 'left',
           label: 'Insurance Suite',
         },
-        {
-          href: 'https://github.com/LakshanSivakumar/skandage-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {

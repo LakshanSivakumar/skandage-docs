@@ -1,19 +1,23 @@
 ---
 sidebar_position: 1
 id: intro
-title: Insurance Suite Overview
+title: Welcome to the OS
 ---
 
-# The Offline Operating System
+# The Insurance Suite OS
 
-Welcome to the internal engine of your practice. The Skandage Insurance Suite is a native desktop application built on a strict **Local-First** architecture. 
+Welcome to your new digital headquarters. 
 
-## Zero Data Entry
-The core philosophy of this suite is to give you your weekends back. Your client data lives entirely on your hard drive in an encrypted `.skandb` file—never on our servers.
+While the Skandage Website Suite handles your public-facing marketing and lead capture, the **Insurance Suite** is your private, offline desktop operating system. It is designed to handle the heavy lifting of your advisory practice: parsing policy PDFs, mapping out client appointments, and generating complex retirement reports.
 
-### Core Modules
-* **PDF Automation:** Drag and drop policy documents to instantly extract premiums and surrender values.
-* **Smart CRM:** Automated tracking for birthdays, anniversaries, and policy review dates.
-* **Spatial Intelligence:** Offline map rendering to route your back-to-back appointments efficiently.
+**100% Local. 100% Secure.**
+Because the Insurance Suite runs directly on your machine, you never have to worry about uploading sensitive client NRICs or policy data to a third-party cloud. Your data stays on your device.
 
-*Note: You must have an active license key to unlock the desktop application.*
+---
+
+### Core Capabilities
+* **Automated Data Entry:** Drop in Prudential or AIA PDFs and let the engine extract the data instantly.
+* **Geospatial Mapping:** Visualize your entire client base on a map to optimize your appointment routes.
+* **Instant Advisory Reports:** Generate Excel and PDF reports for Retirement, Wealth, and Protection gaps in seconds.
+
+Let's get your database set up. Proceed to **[01. The Client Vault & Map](./database)**.
