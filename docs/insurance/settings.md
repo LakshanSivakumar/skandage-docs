@@ -1,22 +1,28 @@
 ---
-sidebar_position: 5
+sidebar_position: 11
 id: settings
-title: 04. System Settings
+title: 09. Settings
 ---
 
-# System Settings
+# Settings
 
-Customize the OS to fit your workflow. Navigate to the bottom of your sidebar and click **Settings**.
+Everything that customizes the app to you, rather than to a specific client, lives here.
+
+### Agent Profile
+Your **Display Name** and **Agency / Organization**. This feeds the Proposal Engine's cover page automatically, so it's worth setting correctly before you generate anything for a client — see [Getting Started](./getting-started#first-launch).
 
 ### Appearance
-* **Dark Mode:** Toggle the interface between light mode and our signature dark mode to reduce eye strain during late-night planning sessions.
-* **Color Theme:** Customize the system accent color (e.g., Sky Blue) to match your personal brand.
+Toggle **Dark Mode** on or off.
 
 ### Preferences
-* **Notifications:** Enable alerts so the system can remind you of expiring policies and upcoming client birthdays.
-* **Default Currency:** Set your base currency (e.g., SGD) for all retirement and wealth projections.
+* **Enable Notifications** — get alerted about expiring policies.
+* **Default Currency** — the base currency (e.g. SGD) used across retirement and wealth projections.
 
-### Data & Security (Local Backups)
-Because this is an offline OS, your data lives on your hard drive. It is crucial to back it up.
-* **Export JSON:** Click this to download a completely encrypted, local backup file of your entire client and policy database. Store this file securely.
-* **Import JSON:** If you upgrade to a new MacBook, simply install Skandage, click Import, upload your backup file, and your entire database will instantly restore.
+### Meeting Calendar
+Connect a **Google Calendar** and choose which calendar Skandage should read. Once connected, use **Scan for meetings** to run a match immediately, or let it happen automatically (at most once a day). Full detail on how the matching works is in [Sync & Backup](./sync-backup#2-google-calendar-meeting-history).
+
+### iCloud Sync (Mac & iPad)
+Turn on sync and tap **Sync Now**. The panel shows when your data last synced. See [Sync & Backup](./sync-backup#1-icloud-sync-mac--ipad) for the full picture, including why this matters for backups.
+
+### System
+Shows your installed version and build number, with a **Check Updates** button. Skandage updates automatically in the background on macOS; on iOS you'll be nudged to update through the App Store, and on Windows this links out to the latest release on GitHub.
